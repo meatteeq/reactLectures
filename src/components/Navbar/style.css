@@ -1,0 +1,23 @@
+.navbar-wrapper {
+  display: inline-flex;
+}
+.navbar-wrapper ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.navbar-wrapper a {
+  display: inline-flex;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: 0.3s ease-in-out all;
+  padding: 0.375rem 0.5rem;
+}
+
+.navbar-wrapper a.current {
+  border-color: #fff;
+}
+.navbar-wrapper a:hover {
+  border-bottom-color: #fff;
+}
